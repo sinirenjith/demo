@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial;
+      color: rgb(12, 12, 12);    
+    }
+
+
+    .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+
+    .split {
+      height: 100%;
+      width: 13%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    .left {
+      left: 0;
+      background-color:rgb(229, 234, 243);
+      }
+
+    .right {
+      right: 0;
+      background-color: rgb(128, 131, 138);     
+    }
+
+
+    #icon {
+     position: absolute;
+     top: 7%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+   } 
+
+    #std{
+      position: absolute;
+      top: 18%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   } 
+
+    #lessonplan {
+      position: absolute;
+      top: 28%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    } 
+
+    #setting {
+      position: absolute;
+      top: 38%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    } 
+
+    .std1 {
+      position: absolute;
+      top: 23%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size:14px;
+    } 
+
+    .ls1 {
+      position: absolute;
+      top: 33%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size:14px;
+    } 
+
+    .settings1 {
+      position: absolute;
+      top: 43%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size:14px;
+    } 
+
+    .button {
+      border: none;
+      color: rgb(5, 5, 5);
+      padding: 13px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 80px 200px;
+      cursor: pointer;
+    }
+
+.button{background-color: #edf1ed;}
+
+
+      @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f7f4f4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+    .search {
+      width: 160%;
+      position: relative;
+      display: flex;
+    }
+
+    .searchTerm {
+      width: 100%;
+      border: 3px solid #051314;
+      padding: 5px;
+      height: 20px;
+      border-radius: 5px 0 0 5px;
+      outline:0in;
+      color: #070707;
+      text-decoration-thickness:1px;
+    }
+
+    .searchTerm:focus{
+      color: #00B4CC;
+    }
+
+    .wrap{
+      width: 30%;
+      position: absolute;
+      top: 55%;
+      left: 43%;
+      transform: translate(-50%, -50%);
+    }   
+
+  </style> 
+  </head>  
+
+<body>
+<ul>
+    <div class="topnav">
+
+    <div class="split left"> 
+ 
+    <img src="icon.png" id="icon" width="40" height="40"
+    alt="icon" >
+<br>
+<br>
+  
+    <img src="std.png " id="std" width="40" height="40" 
+    alt="Student">
+          
+    <div class="std1">Students</div>
+
+<br>
+<br>
+  
+    <img src="lessonplan.png" id="lessonplan" width="40" height="40"
+    alt="lessonplan">
+
+    <div class="ls1">Lesson Plan</div>
+  
+<br>
+<br>
+    <img src="settings.png" id="setting" width="40" height="40"
+    alt="setting">
+  
+    <div class="settings1">Settings</div>
+
+</ul>
+</div>
+</div>
+   
+    <button class="button">Videos</button>
+
+<br>
+<br>
+<div>
+      <div class="wrap">
+      <div class="search">
+<br>
+<br>
+<br>
+     <input type="text" class="searchTerm" placeholder="Insert URL here">
+     <i class="fa fa-search"></i>
+<br>
+<br>
+</div>
+     <p style= "text-align: center;">or</p></style></p>
+<div>
+           
+     <textarea name="upload" rows="10" cols="18">
+       Upload</textarea>
+            
+</div>
+</div>
+</div>
+</div>
+    
+       
+</body>
+
+</html> 
